@@ -132,6 +132,13 @@ h1{
   .imgEncabezado {
     width: 50%;
   }
+
+  .h3DeLlamada{
+    font-size: 1em;
+  }
+  .numLlamada{
+    font-size: 1em;
+  }
 }
 
  @media screen and (max-width:1200px){
