@@ -41,7 +41,8 @@ nav {
   align-items: center;
   width: 100%;
   background-color: white;
-  margin: 0em 0em 0em 0em;
+  margin-right: calc(-.1 * var(--bs-gutter-x)) !important;
+    margin-left: calc(-.1 * var(--bs-gutter-x)) !important;
 }
 
 .divLogo{
@@ -49,11 +50,12 @@ nav {
   justify-content: center;
 }
 
-.divLamada{
+.divLlamada{
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: black;
+  padding: 1em;
 }
 .h3DeLlamada{
   color: white;
