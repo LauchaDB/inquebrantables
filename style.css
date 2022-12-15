@@ -10,7 +10,7 @@ body{
 nav {
   margin-top: 40px;
   font-family: 'Montserrat';
-  background-color: #61855e;
+  background-color: #51904C;
 }
 
 /* fin - nuevo nav */
@@ -130,7 +130,11 @@ h1{
 @media screen and (max-width:650px){
 
   .imgEncabezado {
-    width: 50%;
+    width: 60%;
+  }
+
+  .about-section {
+    background: url(images/manos2.png) left center / 55% no-repeat;
   }
 
   .h3DeLlamada{
